@@ -856,10 +856,6 @@
     (stroke (width 0) (type default))
     (uuid 09d4f37e-53ee-4958-9d65-2e3db5c0a5d3)
   )
-  (wire (pts (xy 135.89 93.98) (xy 143.51 93.98))
-    (stroke (width 0) (type default))
-    (uuid 0a3dec9c-9629-4598-8ba9-9798fa69283c)
-  )
   (wire (pts (xy 220.98 120.65) (xy 207.01 120.65))
     (stroke (width 0) (type default))
     (uuid 0b8e28a6-f83f-4f24-a852-01b2dc15c926)
@@ -1028,6 +1024,10 @@
     (stroke (width 0) (type default))
     (uuid 7d8ba82b-24a0-4a6a-82e6-55e18ff08e65)
   )
+  (wire (pts (xy 135.89 104.14) (xy 143.51 104.14))
+    (stroke (width 0) (type default))
+    (uuid 7dbc5afe-2a92-4876-9ef8-d228b4d33826)
+  )
   (wire (pts (xy 110.49 76.2) (xy 110.49 81.28))
     (stroke (width 0) (type default))
     (uuid 7e3c3f48-aa63-4310-b515-08ca18444c80)
@@ -1080,13 +1080,13 @@
     (stroke (width 0) (type default))
     (uuid 97505ff8-06b2-42b3-a9b4-b3312496e15a)
   )
+  (wire (pts (xy 138.43 63.5) (xy 138.43 93.98))
+    (stroke (width 0) (type default))
+    (uuid 97bba746-aed6-47e6-a3a5-45d924489160)
+  )
   (wire (pts (xy 140.97 111.76) (xy 140.97 109.22))
     (stroke (width 0) (type default))
     (uuid 98c31270-3635-4db7-a472-370173dc14ad)
-  )
-  (wire (pts (xy 138.43 104.14) (xy 143.51 104.14))
-    (stroke (width 0) (type default))
-    (uuid 9b4e121c-a771-4889-9174-1ad1b0122bbc)
   )
   (wire (pts (xy 143.51 78.74) (xy 140.97 78.74))
     (stroke (width 0) (type default))
@@ -1147,6 +1147,10 @@
   (wire (pts (xy 92.71 119.38) (xy 78.74 119.38))
     (stroke (width 0) (type default))
     (uuid a79bc293-9751-408d-b874-cb075b7eaf44)
+  )
+  (wire (pts (xy 138.43 93.98) (xy 143.51 93.98))
+    (stroke (width 0) (type default))
+    (uuid a991ee0b-6faa-467a-b3a6-5c3c5bd04d76)
   )
   (wire (pts (xy 130.81 73.66) (xy 140.97 73.66))
     (stroke (width 0) (type default))
@@ -1215,10 +1219,6 @@
   (wire (pts (xy 135.89 124.46) (xy 143.51 124.46))
     (stroke (width 0) (type default))
     (uuid d5cd8384-2c42-494c-abfd-7ced6e30fe74)
-  )
-  (wire (pts (xy 138.43 63.5) (xy 138.43 104.14))
-    (stroke (width 0) (type default))
-    (uuid d654ece1-7b33-48c1-8ec1-08641dc8f263)
   )
   (wire (pts (xy 173.99 36.83) (xy 173.99 39.37))
     (stroke (width 0) (type default))
@@ -1300,7 +1300,7 @@
     (stroke (width 0) (type default))
     (uuid fbc316a9-7516-411b-a986-26a86c19a95f)
   )
-  (wire (pts (xy 135.89 60.96) (xy 135.89 93.98))
+  (wire (pts (xy 135.89 60.96) (xy 135.89 104.14))
     (stroke (width 0) (type default))
     (uuid fcaa677e-3add-4ef4-965d-9d7e620937e9)
   )
@@ -1335,7 +1335,7 @@
     (pin "14" (uuid faa4ba59-eb50-4d1b-84b5-c1d8e0d990b0))
     (pin "7" (uuid d5531312-b0df-4ccc-82fb-4b79700eb0a7))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "UB13") (unit 2)
         )
@@ -1373,7 +1373,7 @@
     (pin "14" (uuid 4978f136-1f99-455b-af8a-68075165612c))
     (pin "7" (uuid 8a5c6462-9700-499a-8c7f-2516d9b5daf5))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "UD13") (unit 3)
         )
@@ -1399,7 +1399,7 @@
     (pin "1" (uuid 3c9ffa5d-38aa-4253-9786-a80d77f8ce8e))
     (pin "2" (uuid e87ad12b-ea4a-4a6e-bb9a-9ad28a497c6b))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "C13") (unit 1)
         )
@@ -1437,7 +1437,7 @@
     (pin "14" (uuid 734a0b89-d392-4b4d-8908-d1a70952371c))
     (pin "7" (uuid 87e63b60-3a81-4dc4-8906-26f1a0fdc962))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "UD13") (unit 1)
         )
@@ -1463,7 +1463,7 @@
     (pin "1" (uuid e9b32920-263d-4485-ad2e-bcd035503d6a))
     (pin "2" (uuid f4e17f95-5575-4194-9a26-2051a7a4b8e9))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "R34") (unit 1)
         )
@@ -1489,7 +1489,7 @@
     (pin "1" (uuid 0daee716-beb7-467e-a8be-e2fb34df419f))
     (pin "2" (uuid 988edc56-3157-4d82-907f-844b385adee4))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "R35") (unit 1)
         )
@@ -1527,7 +1527,7 @@
     (pin "14" (uuid a400e66e-ffef-4efd-8c07-ae344ecaa27c))
     (pin "7" (uuid 642dc311-cefa-4d4b-8478-b53bfbe5fabb))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "UB13") (unit 1)
         )
@@ -1565,7 +1565,7 @@
     (pin "14" (uuid a9e8ee42-4ec7-44e9-9211-6bb474790498))
     (pin "7" (uuid 0ad2aa0b-4012-4a3b-a5d5-dc4dba8e7f2c))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "U3") (unit 5)
         )
@@ -1603,7 +1603,7 @@
     (pin "14" (uuid 30764e27-e398-4c8b-9971-ef82287a59f8))
     (pin "7" (uuid 1b351d1d-b50f-42aa-bfe3-56ae12b6251e))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "UD13") (unit 2)
         )
@@ -1641,7 +1641,7 @@
     (pin "14" (uuid a21360ff-a8fc-4281-92fe-306d183d1ca0))
     (pin "7" (uuid e2498fc1-082f-402f-a3b6-45b39708b2c7))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "U3") (unit 4)
         )
@@ -1667,7 +1667,7 @@
     (pin "1" (uuid 7a54e57e-debc-48d1-9f53-3ced9b8e211a))
     (pin "2" (uuid e08658ef-8a61-4fd3-8caf-d4355ba0250b))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "R27") (unit 1)
         )
@@ -1705,7 +1705,7 @@
     (pin "14" (uuid 0478200b-31f9-4fba-b106-a0b4f8235d3a))
     (pin "7" (uuid cb6ec3f4-0cb3-4a50-92ee-9ed3fc082e29))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "UB13") (unit 3)
         )
@@ -1743,7 +1743,7 @@
     (pin "14" (uuid a14b5ae2-e142-4199-bdd2-e466b5967bb7))
     (pin "7" (uuid 1f7ac961-3ece-4e4b-b074-082f84e34e93))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "U3") (unit 1)
         )
@@ -1768,7 +1768,7 @@
     )
     (pin "1" (uuid 50b72273-182c-4e93-bccb-4eb1010a749d))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "#PWR01") (unit 1)
         )
@@ -1794,7 +1794,7 @@
     (pin "1" (uuid 731ba13f-0232-463a-960b-c0d373a0655d))
     (pin "2" (uuid bf09b8eb-882e-4b99-b439-9f839e78d222))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "R45") (unit 1)
         )
@@ -1832,7 +1832,7 @@
     (pin "14" (uuid cc2c799f-d9d5-49b1-80ba-f8aebd118c47))
     (pin "7" (uuid 26e1ba02-7557-4b75-aafa-8429aa8a07b0))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "U3") (unit 3)
         )
@@ -1870,7 +1870,7 @@
     (pin "14" (uuid deb1c854-0c12-4660-8bdf-13cee72b28b6))
     (pin "7" (uuid ac90afbc-5a95-435d-be4e-be538bba8df4))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "U3") (unit 2)
         )
@@ -1896,7 +1896,7 @@
     (pin "1" (uuid d2c363ff-6818-450a-b595-38d4072f0bb5))
     (pin "2" (uuid 7dbefe85-4571-4357-a114-ced4f8c063e8))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "R49") (unit 1)
         )
@@ -1922,7 +1922,7 @@
     (pin "1" (uuid 23c9ec02-46f3-4f06-8dcb-d21772848e7b))
     (pin "2" (uuid d82ce8c7-1a16-47ee-ac4f-414d23f7d7ea))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "R44") (unit 1)
         )
@@ -1948,7 +1948,7 @@
     (pin "1" (uuid dbf4afbb-8421-4ce7-8a4f-fa9e513af73c))
     (pin "2" (uuid 0fd9dc97-e3f4-4aeb-89d2-1e41462f900d))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "C11") (unit 1)
         )
@@ -1974,7 +1974,7 @@
     (pin "1" (uuid 1afcfcd2-e352-49da-b706-819a3f434d45))
     (pin "2" (uuid 27791e96-18df-418d-8cb8-ec613f41da97))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "C12") (unit 1)
         )
@@ -2000,7 +2000,7 @@
     (pin "1" (uuid 44683afd-aae6-473f-9d52-46554dd0b4c0))
     (pin "2" (uuid 1c696be0-e6b9-4499-98dc-aecad61c3c12))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "C10") (unit 1)
         )
@@ -2026,7 +2026,7 @@
     (pin "1" (uuid 4af94b5f-4280-4419-a731-0c98e978d126))
     (pin "2" (uuid 034ca14f-ae48-4ab7-9e54-d4c8a254e971))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "C62") (unit 1)
         )
@@ -2052,7 +2052,7 @@
     (pin "1" (uuid 66ca8b0c-1043-4b77-9278-58489185a72f))
     (pin "2" (uuid 6b63d632-f944-4f3d-9ea1-4fbd9798e240))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "R33") (unit 1)
         )
@@ -2078,7 +2078,7 @@
     (pin "1" (uuid 824bac4c-712a-430d-bd31-71a9e9f1785f))
     (pin "2" (uuid ddf3b6f4-7278-4bf2-b073-fe70c0287aa0))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "C97") (unit 1)
         )
@@ -2116,7 +2116,7 @@
     (pin "14" (uuid e06cf959-3862-426f-b9b2-963cf4281edd))
     (pin "7" (uuid 8d55fb19-83c9-4ac9-8510-d90d9bcfdd27))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "U2") (unit 5)
         )
@@ -2154,7 +2154,7 @@
     (pin "14" (uuid 6fdb5b82-4100-4736-8576-f27edfbc6e63))
     (pin "7" (uuid 2ee37dcb-5cb1-412a-b66a-e9eccf5a9128))
     (instances
-      (project "trace_74hc"
+      (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "UD13") (unit 4)
         )
