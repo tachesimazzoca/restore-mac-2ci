@@ -1471,32 +1471,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 217.17 96.52 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 59995898-e736-469a-829d-653bededb075)
-    (property "Reference" "R35" (at 217.17 91.44 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "4.7k" (at 217.17 93.98 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 217.424 95.504 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 217.17 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0daee716-beb7-467e-a8be-e2fb34df419f))
-    (pin "2" (uuid 988edc56-3157-4d82-907f-844b385adee4))
-    (instances
-      (project "mac_2ci"
-        (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
-          (reference "R35") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "74xx:74HC74") (at 207.01 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 605f739a-f995-43ee-8cc6-841e59e9e89a)
