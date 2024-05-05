@@ -1120,7 +1120,7 @@
     (stroke (width 0) (type default))
     (uuid a20c894c-156f-4567-81bf-cf75f509c78b)
   )
-  (wire (pts (xy 207.01 96.52) (xy 213.36 96.52))
+  (wire (pts (xy 207.01 96.52) (xy 217.17 96.52))
     (stroke (width 0) (type default))
     (uuid a2f804ba-1a7c-408b-ae3a-d2dc07ce2362)
   )
@@ -1466,6 +1466,32 @@
       (project "mac_2ci"
         (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
           (reference "R34") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 220.98 96.52 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4fbda458-a840-4a72-a425-66d71bc4d04f)
+    (property "Reference" "R112" (at 220.98 91.44 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1.5k" (at 220.98 93.98 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 221.234 95.504 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 220.98 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 33985e9b-60cf-4120-9190-f9ac0fd2718c))
+    (pin "2" (uuid 960cb560-9dcc-4f1d-9f8e-c287a797cd50))
+    (instances
+      (project "mac_2ci"
+        (path "/8fd27ab9-1fd6-4fcb-9967-31c073270cfd"
+          (reference "R112") (unit 1)
         )
       )
     )
